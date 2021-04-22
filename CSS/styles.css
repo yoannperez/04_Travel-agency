@@ -1,0 +1,54 @@
+/* ------------------ generals ----------------*/
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* ------------------ Header ----------------*/
+header h2 {
+  display: inline-block;
+  width: 500px;
+  margin: auto;
+}
+nav {
+  display: inline-block;
+}
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+
+/* ------------------ Hero ---------------*/
+#accueil {
+  background-image: url(../Images/main.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#accueil h1 {
+  text-align: center;
+  margin: auto;
+}
+/* -------------- destinations ---------------*/
+#destinations {
+  margin: 30px auto;
+  background-color: blue;
+}
+.etapes {
+  display: inline-block;
+  vertical-align: top;
+  background-color: brown;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.etapes img {
+  width: 80px;
+}
+.etapes p {
+  font-size: 0.8em;
+}
+/* ------------------ Hero ---------------*/
