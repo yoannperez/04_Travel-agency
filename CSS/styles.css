@@ -4,49 +4,64 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #565656;
 }
-
-/* ------------------ Header ----------------*/
-header h2 {
-  display: inline-block;
-}
-header {
-  width: 80%;
-  margin: auto;
-  position: relative;
-}
-header h2 {
-  display: inline-block;
-}
-nav {
-  display: inline-block;
-  position: absolute;
-  bottom: 9px;
-  right: 0;
-}
-li {
-  display: inline-block;
-}
-a {
-  text-decoration: none;
+p {
+  font-size: 0.8em;
 }
 strong {
   font-weight: bold;
 }
 
+/* ------------------ Header ----------------*/
+header {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+/* -- Logo -- */
+header a {
+  display: inline-block;
+}
+header h2 {
+  display: inline-block;
+  margin-right: 250px;
+}
+/* --Menu --*/
+nav {
+  display: inline-block;
+  vertical-align: super;
+
+  /*bottom: 9px;
+  right: 0;*/
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+
 /* ------------------ Hero ---------------*/
+
 #accueil {
   background: url(../Images/main.jpg);
   background-size: 100%;
   height: 400px;
   background-repeat: no-repeat;
-  padding: auto;
-  position: relative;
+  /*padding: auto;
+  position: relative;*/
+  display: inline-block;
+
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
 }
 #accueil h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 400;
   display: block;
-  text-align: center;
+  padding-top: 6%;
 }
 
 #accueil button {
@@ -55,11 +70,12 @@ strong {
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
+  font-size: 1.5em;
 }
 /* -------------- destinations ---------------*/
 #destinations {
   width: 80%;
-  margin: 30px auto;
+  margin: 5% auto;
 }
 .etapes {
   display: inline-block;
@@ -72,9 +88,7 @@ strong {
 .etapes img {
   width: 80px;
 }
-.etapes p {
-  font-size: 0.8em;
-}
+
 /* ------------------ Circuits ---------------*/
 #circuits {
   background: #f1f2f3;
@@ -83,7 +97,6 @@ strong {
   margin: auto;
   text-align: center;
 }
-
 #voiture,
 #ocean {
   display: inline-block;
@@ -92,7 +105,6 @@ strong {
   margin: 40px 10px;
   height: 250px;
   border-radius: 16px;
-  border: 1px solid white;
 }
 #ocean {
   background: url(../Images/article-image-2.jpg) center no-repeat;
@@ -102,13 +114,13 @@ strong {
 }
 .option {
   position: absolute;
+  left: -1px;
 
   width: 180px;
   height: 100%;
   padding: 0 20px;
-
-  background-color: rgba(255, 255, 255, 0.857);
   border-radius: 15px 0 0 15px;
+  background-color: rgba(255, 255, 255, 0.857);
 }
 
 #circuits button {
@@ -117,4 +129,22 @@ strong {
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
+}
+/* ------------------ Contact ---------------*/
+#contact {
+  text-align: center;
+  width: 72%;
+  margin: 20px auto;
+
+  position: relative;
+}
+#contact h2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #565656;
+  padding-bottom: 10px;
+}
+#contct p {
+  display: inline-block;
+  width: 80%;
 }
