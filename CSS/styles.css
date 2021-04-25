@@ -1,44 +1,58 @@
+/* --------------- Import fonts --------------*/
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 /* ------------------ generals ----------------*/
 * {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #565656;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  margin: 0;
+  padding: 0;
 }
 p {
-  font-size: 0.8em;
+  font-size: 15px;
 }
 strong {
   font-weight: bold;
 }
-
-/* ------------------ Header ----------------*/
-header {
-  width: 80%;
-  margin: auto;
-  position: relative;
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
-/* -- Logo -- */
-header a {
-  display: inline-block;
-}
-header h2 {
-  display: inline-block;
-  margin-right: 250px;
-}
-/* --Menu --*/
-nav {
-  display: inline-block;
-  vertical-align: super;
-
-  /*bottom: 9px;
-  right: 0;*/
-}
-li {
-  display: inline-block;
-  margin-right: 10px;
+.orange {
+  color: #ff7a00;
 }
 a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff7a00;
+}
+
+/* ------------------ Header ----------------*/
+header {
+  height: 120px;
+}
+/* -- Logo -- */
+header h2 {
+  font-family: "Crete Round", serif;
+  font-size: 45px;
+  float: left;
+  margin-top: 32px;
+}
+/* --Menu --*/
+nav {
+  float: right;
+}
+ul {
+  list-style: none;
+  margin-top: 50px;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
 }
 
 /* ------------------ Hero ---------------*/
@@ -46,17 +60,15 @@ a {
 #accueil {
   background: url(../Images/main.jpg);
   background-size: 100%;
-  height: 400px;
+  min-height: 400px;
   background-repeat: no-repeat;
-  /*padding: auto;
-  position: relative;*/
-  display: inline-block;
 
   width: 100%;
   margin: auto;
   text-align: center;
   padding: 10px;
 }
+
 #accueil h1 {
   font-size: 2.5em;
   font-weight: 400;
