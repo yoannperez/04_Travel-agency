@@ -27,7 +27,7 @@
 
       <!-- Hero -->
       <section id="accueil">
-        <div class="tototo wrapper">
+        <div class="wrapper">
           <h1>
             ORGANISEZ VOTRE <br />
             <strong>VOYAGE SUR MESURE</strong>
@@ -116,13 +116,18 @@
             <form action="traitement.php" method="POST">
               <p>
                 <label for="nom"><strong> Nom</strong></label>
-                <input type="text" name="nom" id="nom" value="Votre nom" />
+                <input
+                  type="text"
+                  name="nom"
+                  id="nom"
+                  placeholder="Votre nom"
+                />
                 <label for="email"><strong> Email</strong></label>
                 <input
                   type="email"
                   name="email"
                   id="email"
-                  value="Votre email"
+                  placeholder="Votre email"
                 />
                 <input type="submit" value="OK" id="ok" />
               </p>
